@@ -72,3 +72,8 @@ class Solution:
         return isValid
 
 # Learnings from this solution and why it is bad?
+# 1. Try to solve the whole problem in one loop
+# 2. Try to encode the data to make in simpler so that comparisons become simple
+# 3. Try to reduce space complexity,
+#    here the __get_num_dict creates too many local variables, try to optimise
+#    that.
